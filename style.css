@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	font-family: 'Comfortaa';
+}
+.matfac{
+	font-family: 'Segoe UI', sans-serif;
+}
+body{
+	display: flex;
+	justify-content: center;
+}
+header{
+	width: 1280px;
+	height: 670px;
+	background: #b1b1cf;
+}
+.header{
+	height: 90px;
+	background: #23232f;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: aliceblue;
+}
+.group{
+	display: contents;
+	list-style: none;
+}
+.aa{
+	text-decoration: none;
+}
+.aa:hover{
+	text-decoration: underline;
+}
+.aa:active{
+	color: #0000ff;
+}
+.gra{
+	border-bottom: #0000ff solid 2px;
+}
+.spisok{
+	display: flex;
+	height: 550px;
+	align-items: center;
+	justify-content: safe;
+}
+.ph{
+	margin-top: 25px;
+	margin-left: 70px;
+	font-size: 18px;
+}
