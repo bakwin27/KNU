@@ -12,11 +12,11 @@ body{
 header{
 	width: 1280px;
 	height: 670px;
-	background: #b1b1cf;
+	background-image: linear-gradient(to right top, #050537, #251866, #532295, #8a24c2, #c912eb);
 }
 .header{
 	height: 90px;
-	background: #23232f;
+	background: #121283;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -28,12 +28,10 @@ header{
 }
 .aa{
 	text-decoration: none;
+	color: rgb(190, 192, 194);
 }
 .aa:hover{
-	text-decoration: underline;
-}
-.aa:active{
-	color: #0000ff;
+	color: yellow;
 }
 .gra{
 	border-bottom: #0000ff solid 2px;
@@ -48,4 +46,11 @@ header{
 	margin-top: 25px;
 	margin-left: 70px;
 	font-size: 18px;
+}
+.gr{
+	text-decoration: none;
+	color: antiquewhite;
+}
+.gr:hover{
+	color: red;
 }
